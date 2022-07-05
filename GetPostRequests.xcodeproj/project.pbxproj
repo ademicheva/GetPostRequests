@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7AB02C6287422B300CD8E8D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AB02C5287422B300CD8E8D /* TableViewCell.swift */; };
 		C7E09E582872F248001D9976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E09E572872F248001D9976 /* AppDelegate.swift */; };
 		C7E09E5A2872F248001D9976 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E09E592872F248001D9976 /* SceneDelegate.swift */; };
 		C7E09E5C2872F248001D9976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E09E5B2872F248001D9976 /* ViewController.swift */; };
 		C7E09E5F2872F248001D9976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E09E5D2872F248001D9976 /* Main.storyboard */; };
 		C7E09E612872F249001D9976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E09E602872F249001D9976 /* Assets.xcassets */; };
 		C7E09E642872F249001D9976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E09E622872F249001D9976 /* LaunchScreen.storyboard */; };
+		C7E09E6C2872F2C8001D9976 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E09E6B2872F2C8001D9976 /* ImageViewController.swift */; };
+		C7E09E6F287316ED001D9976 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E09E6E287316ED001D9976 /* CoursesViewController.swift */; };
+		C7E09E712873173E001D9976 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E09E702873173E001D9976 /* WebViewController.swift */; };
+		C7E09E7428731B63001D9976 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E09E7328731B63001D9976 /* Course.swift */; };
+		C7E09E77287328A6001D9976 /* WebsiteDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E09E76287328A6001D9976 /* WebsiteDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7AB02C5287422B300CD8E8D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		C7E09E542872F248001D9976 /* GetPostRequests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetPostRequests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E09E572872F248001D9976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7E09E592872F248001D9976 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,12 @@
 		C7E09E602872F249001D9976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E09E632872F249001D9976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7E09E652872F249001D9976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E09E6B2872F2C8001D9976 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		C7E09E6D2872F975001D9976 /* Description.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Description.md; sourceTree = "<group>"; };
+		C7E09E6E287316ED001D9976 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		C7E09E702873173E001D9976 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C7E09E7328731B63001D9976 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		C7E09E76287328A6001D9976 /* WebsiteDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +69,38 @@
 		C7E09E562872F248001D9976 /* GetPostRequests */ = {
 			isa = PBXGroup;
 			children = (
+				C7E09E6D2872F975001D9976 /* Description.md */,
 				C7E09E572872F248001D9976 /* AppDelegate.swift */,
 				C7E09E592872F248001D9976 /* SceneDelegate.swift */,
-				C7E09E5B2872F248001D9976 /* ViewController.swift */,
+				C7E09E7528731B6B001D9976 /* Models */,
+				C7E09E7228731B30001D9976 /* ViewControllers */,
 				C7E09E5D2872F248001D9976 /* Main.storyboard */,
 				C7E09E602872F249001D9976 /* Assets.xcassets */,
 				C7E09E622872F249001D9976 /* LaunchScreen.storyboard */,
 				C7E09E652872F249001D9976 /* Info.plist */,
 			);
 			path = GetPostRequests;
+			sourceTree = "<group>";
+		};
+		C7E09E7228731B30001D9976 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7E09E5B2872F248001D9976 /* ViewController.swift */,
+				C7E09E702873173E001D9976 /* WebViewController.swift */,
+				C7E09E6E287316ED001D9976 /* CoursesViewController.swift */,
+				C7AB02C5287422B300CD8E8D /* TableViewCell.swift */,
+				C7E09E6B2872F2C8001D9976 /* ImageViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C7E09E7528731B6B001D9976 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7E09E7328731B63001D9976 /* Course.swift */,
+				C7E09E76287328A6001D9976 /* WebsiteDescription.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E09E5C2872F248001D9976 /* ViewController.swift in Sources */,
+				C7E09E7428731B63001D9976 /* Course.swift in Sources */,
+				C7E09E77287328A6001D9976 /* WebsiteDescription.swift in Sources */,
+				C7AB02C6287422B300CD8E8D /* TableViewCell.swift in Sources */,
+				C7E09E712873173E001D9976 /* WebViewController.swift in Sources */,
 				C7E09E582872F248001D9976 /* AppDelegate.swift in Sources */,
+				C7E09E6C2872F2C8001D9976 /* ImageViewController.swift in Sources */,
 				C7E09E5A2872F248001D9976 /* SceneDelegate.swift in Sources */,
+				C7E09E6F287316ED001D9976 /* CoursesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +336,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +364,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +376,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
